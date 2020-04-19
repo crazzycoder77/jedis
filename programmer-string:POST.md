@@ -4,26 +4,24 @@ This method saves programmer as a serialized byte to the redis
 
 * **URL**
 
-  /programmer-string/{id}
+  /programmer-string
 
 * **Method:**
 
-  `GET`
+  `POST`
   
 *  **URL Params**
-
-  **Required:**
-  `id=[integer]`
-
+  
+  None
 
 * **Data Params**
 
-  None
+  Programmer
 
 * **Success Response:**
   
    * **Code:** 200 <br />
-    **Content:** `{ id : 12, name : "praveen", 'company': 'xyz' }`
+    **Content:** `No Response Body`
 
  
 * **Error Response:**
@@ -34,3 +32,16 @@ This method saves programmer as a serialized byte to the redis
   * **Code:** 500 Internal Server Error <br />
     **Content:** `{ error : "Error Report" }`
 
+* **Sample Call:**
+
+  ```javascript
+    $.ajax({
+      url: "/programmer-string",
+      dataType: "json",
+      data: "{'id': '20', 'company': 'foo', 'name': 'baa'}"
+      type : "POST",
+      success : function() {
+        console.log("Success");
+      }
+    });
+  ```
