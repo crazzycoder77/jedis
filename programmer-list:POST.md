@@ -36,7 +36,7 @@ This method gets programmer as a serialized byte to the redis
 
   ```javascript
     $.ajax({
-      url: "/programmer-string",
+      url: "/programmer-list",
       dataType: "json",
       data: "[{ 'id' : '12', 'name' : "praveen", 'company': 'xyz' }, { 'id' : '14', 'name' : "foo", 'company': 'bar' }]"
       type : "POST",
