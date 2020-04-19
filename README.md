@@ -3,11 +3,11 @@
 ### Prerequisites
 
 * [JAVA 8](https://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html) - The Programming Language
+* [Maven](https://en.wikipedia.org/wiki/Apache_Maven) - The Project Managment Tool
 
 ##Built With
-* [Maven](https://en.wikipedia.org/wiki/Apache_Maven) - The Project Managment Tool
 * [Spring](https://en.wikipedia.org/wiki/Spring_Framework) - Java Application Framework
-
+* [Jedis](https://www.baeldung.com/jedis-java-redis-client-library) - Redis Java Client
 #Avaialable API Methods
 * [/programmer-string:POST](link) - Post Progammer To SERVER As JSON 
 * [/programmer-string/{id}:GET](link) - GET Programmer From Server As JSON Based on {id}
