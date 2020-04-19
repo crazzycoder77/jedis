@@ -11,13 +11,13 @@
 
 ### Avaialable API Methods
 * [/programmer-string:POST](https://github.com/crazzycoder77/jedis/blob/master/programmer-string:POST.md) - Post Progammer To SERVER As JSON 
-* [/programmer-string/{id}:GET](link) - GET Programmer From Server As JSON Based on {id}
-* [/programmer-list:POST](link) - Post List Of Programmers To Server As JSON
-* [/programmer-list:GET](link) - GET List Of Programmers To Server As JSON
-* [/programmer-list/count:GET](link) - GET Total Programmers In The List key OF Redis
-* [/programmer-set:POST](link) - Post List Of Programmers To Server As JSON, Unqiue Data is Mentained at Database
-* [/programmer-set:GET](link) - Get Unqiue List Of Programmers From The Server As JSON Response
-* [/isProgrammer](link) - Returns Weather Programmer Is In The Uniuqe List
+* [/programmer-string/{id}:GET](https://github.com/crazzycoder77/jedis/blob/master/programmer-string%7Bid%7D:GET.md) - GET Programmer From Server As JSON Based on {id}
+* [/programmer-list:POST](https://github.com/crazzycoder77/jedis/blob/master/programmer-list:POST.md) - Post List Of Programmers To Server As JSON
+* [/programmer-list:GET](https://github.com/crazzycoder77/jedis/blob/master/programmer-list:GET.md) - GET List Of Programmers To Server As JSON
+* [/programmer-list/count:GET](https://github.com/crazzycoder77/jedis/blob/master/programmer-list-count:GET.md) - GET Total Programmers In The List key OF Redis
+* [/programmer-set:POST](https://github.com/crazzycoder77/jedis/blob/master/programmer-set:POST.md) - Post List Of Programmers To Server As JSON, Unqiue Data is Mentained at Database
+* [/programmer-set:GET](https://github.com/crazzycoder77/jedis/blob/master/programmer-set:GET.md) - Get Unqiue List Of Programmers From The Server As JSON Response
+* [/isProgrammer](https://github.com/crazzycoder77/jedis/blob/master/isProgrammer.md) - Returns Weather Programmer Is In The Uniuqe List
 
 ## Author
 * **Praveen Mishra** - *Development* - [crazzycoder77](https://github.com/crazzycoder77)
