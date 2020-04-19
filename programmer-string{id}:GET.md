@@ -1,6 +1,6 @@
-**Programmer String Post**
+**Programmer String Get**
 ----
-This method saves programmer as a serialized byte to the redis
+This method gets programmer as a serialized byte to the redis
 
 * **URL**
 
